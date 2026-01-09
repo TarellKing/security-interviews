@@ -1,7 +1,13 @@
-# Security Interview Questions
+# Entry-Level SOC Interview Questions
 
-This page contains a curated set of security interview questions organized by **experience level**.  
+This page contains a curated set of security interview questions organized by **experience level**.
 The questions reflect real interview conversations rather than academic topic groupings.
+
+---
+
+## Table of Contents
+- [Entry-Level / Foundations](#entry-level--foundations)
+- [Open-Ended / Deep Dive](#-open-ended--deep-dive)
 
 ---
 
@@ -13,38 +19,31 @@ These questions focus on baseline security knowledge and reasoning expected for 
 - When would you use hashing instead of encryption?
 - Why are salts used in password hashing?
 - What is the difference between **TCP** and **UDP**?
-- What is a **port** and how is it used?
-- What does **DNS** do?
+- why are EDRs important 
+- What happens when you search google.com 
 - What is **least privilege** and why is it important?
 - What is the difference between **authentication** and **authorization**?
 - What is a **false positive** versus a **false negative**?
-- Walk through the steps you would take after detecting a suspicious login.
 - What logs would you review during a potential account compromise?
-
----
-
-## Engineering-Level (Detection / Security Engineering)
-
-These questions test deeper technical reasoning, implementation decisions, and trade-offs.
-
-- Why might you use `^` in a regular expression?
-- What does `$` represent in regex?
-- How can poorly written regex impact performance or detections?
-- What types of events are high-signal for brute-force activity?
-- How do you tune a detection rule to reduce noise?
-- What telemetry would you expect from endpoint tools versus network tools?
-- How do you design detections that are resilient to attacker evasion?
-- What’s the difference between signature-based and behavior-based detection?
-- How do you validate a detection rule before pushing it to production?
-- When would you automate an investigation versus keeping it manual?
-- What risks come with automation in security workflows?
+- What is the difference between **firewall logs**, **proxy logs**, and **DNS logs**?
+- How would you identify a brute force attack from logs?
+- What email headers would you check to determine if an email is spoofed?
+- How can you identify a phishing link without clicking it?
 
 ---
 
 ## 🧪 Open-Ended / Deep Dive
 
-These questions are often used in senior or final-round interviews.
+These questions are often used in entry-level or SOC analyst interviews to assess practical skills.
 
-- How do you balance detection coverage with alert fatigue?
-- Describe a time a detection failed. What did you change?
-- How would you build a detection program from scratch?
+### Alert Triage & Investigation
+
+- Walk through the steps you would take after detecting a suspicious login.
+- You receive an alert for unusual outbound traffic to a foreign IP. What's your process?
+- How would you prioritize between 5 alerts firing at the same time?
+- Walk me through how you would build a timeline for a security incident.
+- How do you correlate events from different log sources into a single timeline?
+- How would you detect data exfiltration through HTTP/HTTPS traffic?
+- Walk me through your process for investigating a reported phishing email.
+
+- What logs would you review to see if other users received the same phishing email?

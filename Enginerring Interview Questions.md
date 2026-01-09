@@ -26,23 +26,21 @@ These questions test deeper technical reasoning, implementation decisions, and t
 - Is there a business case for encoded commands?
 - What's your experience with Detection as Code (DAC)?
 - How would you monitor SIEM data outages?
-- How do you stay up to date with security news?
-- What's your experience with CI/CD pipelines?
 
 
 ## Cloud
 
-- Walk me through incident response on an EC2 instance
+- Walk me through incident response on an EC2 instance.
 - How would you exfiltrate data from a cloud environment?
-- How would you correlate an alert to an EC2 Instance
+- How would you correlate an alert to an EC2 instance?
+- What logs would you use to investigate DNS tunneling on an EC2 instance?
 
 ## Windows / Linux
 
-- What was your intro to Linux?
 - How do you detect Linux persistence?
 - How do you check running processes on Linux?
 - How do you detect Windows persistence?
-- What are lolbins ? 
+- What are lolbins?
 
 
 ## Coding / Scripting
@@ -51,6 +49,12 @@ These questions test deeper technical reasoning, implementation decisions, and t
 - What's the difference between a dict and a set?
 - What's the difference between a for loop and a while loop?
 
+## General
+
+- What was your intro to Linux?
+- What are the benefits and drawbacks to using Docker?
+- How do you stay up to date with security news?
+- What's your experience with CI/CD pipelines?
 
 ---
 
@@ -58,7 +62,7 @@ These questions test deeper technical reasoning, implementation decisions, and t
 
 These questions are often used in senior or final-round interviews.
 
-- What are the benefits and drawbacks to using Docker?
 - How do you balance detection coverage with alert fatigue?
 - Describe a time a detection failed. What did you change?
 - How would you build a detection program from scratch?
+
