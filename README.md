@@ -29,4 +29,6 @@ Please feel free to [open an issue](https://github.com/TarellKing/security-inter
 
 ---
 
+add socials 
+
 Good luck with your interviews 🚀
