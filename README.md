@@ -28,7 +28,12 @@ If you have:
 Please feel free to [open an issue](https://github.com/TarellKing/security-interviews/issues).
 
 ---
+My Socials: 
 
-add socials 
+[Linkedin](https://www.linkedin.com/in/tarelloking/)
+[X](https://x.com/Tarell_)
+[IG](https://www.instagram.com/tarell.ai/) 
+
+
 
 Good luck with your interviews 🚀
